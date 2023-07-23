@@ -26,7 +26,7 @@ const greeting = {
     "I'm a senior at Harvard pursuing an S.M. and B.A. in Computer Science. I'm interested in ML engineering, software engineering, and data-driven product development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hsFQwskD_Q0NIpm2JtyjLkHJbcNc6nf1/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rAbaxz4L-VSKpqcDrnRdaUn44hs4RTmT/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
