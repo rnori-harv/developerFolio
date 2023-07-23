@@ -22,15 +22,21 @@ const illustration = {
 const greeting = {
   username: "Rakesh Nori",
   title: "Hi, I'm Rakesh.",
-  subTitle: emoji(
-    "I'm a senior at Harvard pursuing an S.M. and B.A. in Computer Science. I'm interested in ML engineering, software engineering, and data-driven product development."
-  ),
+  subTitle: 
+    "Currently a senior @ Harvard pursuing an S.M. and B.A. in Computer Science. From San Jose, CA. I do ML engineering and SWE. Interested in new ways we can understand the data we generate.",
   resumeLink:
     "https://drive.google.com/file/d/1QfOmae7iWo_iQytlkxKNqdwd2f_kFOkA/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
+
+const interests = {
+  spotify: "https://open.spotify.com/user/rocky3.14?si=0f8e1b2909804cb1",
+  soundcloud: "https://letterboxd.com/rakesh12/",
+  goodreads: "https://www.goodreads.com/user/show/44655928-rakesh",
+  letterboxd: "https://letterboxd.com/rakesh12/",
+}
 
 const socialMediaLinks = {
   github: "https://github.com/rnori-harv",
@@ -46,15 +52,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ML engineering, software engineering. I love to learn about new technologies and build.",
+  subTitle: "ML engineering, SWE. Interested in anything that involves learning new tech and building.",
   skills: [
-    emoji(
-      "⚡ Full-stack web application development with Python, Java, JavaScript, and React."
-    ),
-    emoji("⚡ Machine Learning + Deep Learning using PyTorch + Tensorflow"),
-    emoji(
-      " ⚡Integrating Machine Learning models into production environments."
-    )
+    "Full-stack web application development with Python, Java, JavaScript, and React.",
+     "Machine Learning + Deep Learning using PyTorch + Tensorflow",
+      "Integrating Machine Learning models into production environments."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -64,10 +66,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Flask",
-      fontAwesomeClassname: "fa-solid fa-flask"
     },
     {
       skillName: "Java",
@@ -113,24 +111,13 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "S.M. in Computational Science and Engineering (CSE)",
-      duration: "September 2022 - May 2024",
-      desc: "GPA: 3.96 / 4.00",
-      descBullets: [
-        "Notable courses: Advanced Scientific Computing, Distributed Systems, Systems Development, Data Science"
-      ]
-
-    },
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Arts in Computer Science",
+      subHeader: "S.M. in Computational Science and Engineering (CSE), B.A. in Computer Science",
       duration: "September 2020 - May 2024",
       desc: "GPA: 3.94 / 4.00",
       descBullets: [
-        "Notable courses: Machine Learning, Systems Programming, Programming Languages, Data Structures and Algorithms"
+        "Notable courses: Machine Learning, Advanced Scientific Computing, Distributed Systems, Systems Development, Systems Programming, Programming Languages, Data Science, Data Structures and Algorithms"
       ]
+
     }
   ]
 };
@@ -158,41 +145,21 @@ const techStack = {
 
 // Work experience section
 
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [
+  experiences: [
     {
-      role: "Machhine Learning Engineer Intern",
+      role: "Machine Learning Engineer Intern",
       company: "Splunk",
-      companylogo: require("./assets/images/splunk.png"),
-      date: "May 2023 – Present",
-      desc: "Anomaly Detection Team",
-      descBullets: [
-        "Full-stack development for release of new AnomalyApp. Used TypeScript + Python.",
-        "Integrated various deep learning models (e.g. LSTMs, AERs) into Anomaly Dectection Algo to improve F1 pointwise performance by ~20 percentage points.",
-      ]
-    },
-    {
-      role: "Software Engineering Intern",
-      company: "Splunk",
-      companylogo: require("./assets/images/splunk.png"),
-      date: "May 2022 – August 2022",
-      desc: "Cloud Networking Team",
-      descBullets: [
-        "Designed and deployed custom scripts using Python and Bash to automate IPAM and monitoring tasks, which removed a bottleneck for 100+ employees requesting manual IPAM services",
-        "Led POCs / product reviews in meetings with third party networking services, drafted POC that I presented to Director of Splunk Cloud and ultimately used to purchase the service."
-      ]
+      date: "May – Sept 2022, May 2023 - Present",
+      desc: "Anomaly Detection, AI Assistant, Cloud Networking",
     },
     {
       role: "Software Engineering Intern",
       company: "Quantumscape",
-      companylogo: require("./assets/images/qs.png"),
       date: "May 2021 – August 2021",
       desc: "Scientific Computing Team",
-      descBullets: [
-        "Incorporated gRPC, Protobuf, Kubernetes, and Docker to deploy a server that wrapped around company’s time series database & query data from over 100,000+ data points",
-        "Constructed an unsupervised anomaly detection model for time series battery conductivity data. Used results to predict the best electrolyte for battery conductivity out of 300+ candidates"
-      ]
     }
   ]
 };
@@ -286,6 +253,13 @@ const talkSection = {
 const podcastSection = {
 };
 
+const info = {
+  twitter: "https://twitter.com/rakesh_nori",
+  github: "https://github.com/rnori-harv",
+  linkedin: "https://linkedin.com/in/rakesh-nori-18371715a/",
+  email: "rnori@college.harvard.edu"
+}
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   email_address: "rnori@college.harvard.edu"
@@ -317,5 +291,7 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  interests,
+  isHireable,
+  info
 };

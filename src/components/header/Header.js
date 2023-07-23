@@ -26,9 +26,7 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -47,7 +45,7 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work</a>
             </li>
           )}
           {viewOpenSource && (
@@ -69,7 +67,10 @@ function Header() {
             <a href="#resume">Resumé</a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#interests">Interests</a>
+          </li>
+          <li>
+            <a href="#info">Info</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

@@ -1,52 +1,23 @@
-import React, {useState, useEffect, lazy, Suspense} from "react";
-import {openSource} from "../../portfolio";
-import Contact from "../contact/Contact";
-import Loading from "../loading/Loading";
+import "./Profile.scss";
+import {useContext} from "react";
 
-const renderLoader = () => <Loading />;
-const GithubProfileCard = lazy(() =>
-  import("../../components/githubProfileCard/GithubProfileCard")
-);
-export default function Profile() {
-  const [prof, setrepo] = useState([]);
-  function setProfileFunction(array) {
-    setrepo(array);
-  }
+import Button from "../../components/button/Button";
+import {illustration, greeting} from "../../portfolio";
+import StyleContext from "../../contexts/StyleContext";
+import {info} from "../../portfolio";
 
-  useEffect(() => {
-    if (openSource.showGithubProfile === "true") {
-      const getProfileData = () => {
-        fetch("/developerFolio/profile.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-          })
-          .then(response => {
-            setProfileFunction(response.data.user);
-          })
-          .catch(function (error) {
-            console.error(
-              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
-            );
-            setProfileFunction("Error");
-            openSource.showGithubProfile = "false";
-          });
-      };
-      getProfileData();
-    }
-  }, []);
-  if (
-    openSource.display &&
-    openSource.showGithubProfile === "true" &&
-    !(typeof prof === "string" || prof instanceof String)
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} />
-      </Suspense>
-    );
-  } else {
-    return <Contact />;
-  }
+export default function Profile(){
+  const {isDark} = useContext(StyleContext);
+  const linkStyle = isDark ? "link-dark" : "link-light";
+  return (
+      <div id = "info" className = "main">
+          <h1 className="profile-title">Info</h1>
+          <ul>
+              <li><a href={info.github} target="_blank" rel="noopener noreferrer" className={linkStyle}>Github</a></li>
+              <li><a href={info.linkedin} target="_blank" rel="noopener noreferrer" className={linkStyle}>LinkedIn</a></li>
+              <li><a href={info.twitter} target="_blank" rel="noopener noreferrer" className={linkStyle}>Twitter</a></li>
+              <li><a href={`mailto:${info.email}`} target="_blank" rel="noopener noreferrer" className={linkStyle}>Email</a></li>
+          </ul>
+      </div>
+  )
 }
