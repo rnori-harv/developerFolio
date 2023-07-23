@@ -1,3 +1,3 @@
 # Rakesh's portfolio website
 
-Developed with the help of https://github.com/saadpasta/developerFolio
+Developed with the help of [Saad Pasta's Repo](https://github.com/saadpasta/developerFolio)
