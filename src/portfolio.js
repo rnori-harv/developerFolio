@@ -169,7 +169,7 @@ const workExperiences = {
       desc: "Anomaly Detection Team",
       descBullets: [
         "Full-stack development for release of new AnomalyApp. Used TypeScript + Python.",
-        "Integrated various deep learning models (e.g. LSTMs, AERs) into Anomaly Dectection Algo to improve F1 poointwise performance by ~20 percentage points.",
+        "Integrated various deep learning models (e.g. LSTMs, AERs) into Anomaly Dectection Algo to improve F1 pointwise performance by ~20 percentage points.",
       ]
     },
     {
