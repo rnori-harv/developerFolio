@@ -50,7 +50,7 @@ export default function EducationCard({school}) {
                   isDark ? "dark-mode" : ""
                 } education-text-duration`}
               >
-                {school.duration}
+                {school.date}
               </p>
               <p className="education-text-desc">{school.desc}</p>
               <div className="education-text-bullets">
