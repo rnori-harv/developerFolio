@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("https://rnori-harv.github.io/profile.json")
+      fetch("/developerFolio/profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
