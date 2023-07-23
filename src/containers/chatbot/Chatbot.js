@@ -9,7 +9,7 @@ export default function Chatbot(){
             <div style={{display: 'flex', justifyContent: 'center'}}>
                 <iframe
                 src="https://resumechatbot.streamlit.app/?embed=true&embed_options=dark_theme"
-                height="450"
+                height="600"
                 style={{width: "80%", border: "none"}}
                 ></iframe>
             </div>
