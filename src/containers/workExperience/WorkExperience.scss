@@ -21,6 +21,10 @@
   flex: 1;
 }
 
+.descBullets li {
+  margin-bottom: 10px; /* adjust as needed */
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {

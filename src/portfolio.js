@@ -49,11 +49,11 @@ const skillsSection = {
   subTitle: "ML engineering, software engineering. I love to learn about new technologies and build.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Full-stack web application development with Python, Java, JavaScript, and React."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Machine Learning + Deep Learning using PyTorch + Tensorflow"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      " ⚡Integrating Machine Learning models into production environments."
     )
   ],
 
@@ -62,56 +62,45 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Flask",
+      fontAwesomeClassname: "fa-solid fa-flask"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
+
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -127,15 +116,20 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "S.M. in Computational Science and Engineering (CSE)",
       duration: "September 2022 - May 2024",
+      desc: "GPA: 3.96 / 4.00",
+      descBullets: [
+        "Notable courses: Advanced Scientific Computing, Distributed Systems, Systems Development, Data Science"
+      ]
+
     },
     {
       schoolName: "Harvard University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Arts in Computer Science",
       duration: "September 2020 - May 2024",
-      desc: "GPA: 3.94/4.00",
+      desc: "GPA: 3.94 / 4.00",
       descBullets: [
-        "Notable courses: Machine Learning, Advanced Scientific Computing, Distributed Systems, Systems Programming, Data Structures and Algorithms"
+        "Notable courses: Machine Learning, Systems Programming, Programming Languages, Data Structures and Algorithms"
       ]
     }
   ]
@@ -172,10 +166,10 @@ const workExperiences = {
       company: "Splunk",
       companylogo: require("./assets/images/splunk.png"),
       date: "May 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Anomaly Detection Team",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Full-stack development for release of new AnomalyApp. Used TypeScript + Python.",
+        "Integrated various deep learning models (e.g. LSTMs, AERs) into Anomaly Dectection Algo to improve F1 poointwise performance by ~20 percentage points.",
       ]
     },
     {
@@ -183,14 +177,22 @@ const workExperiences = {
       company: "Splunk",
       companylogo: require("./assets/images/splunk.png"),
       date: "May 2022 – August 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Cloud Networking Team",
+      descBullets: [
+        "Designed and deployed custom scripts using Python and Bash to automate IPAM and monitoring tasks, which removed a bottleneck for 100+ employees requesting manual IPAM services",
+        "Led POCs / product reviews in meetings with third party networking services, drafted POC that I presented to Director of Splunk Cloud and ultimately used to purchase the service."
+      ]
     },
     {
       role: "Software Engineering Intern",
       company: "Quantumscape",
       companylogo: require("./assets/images/qs.png"),
       date: "May 2021 – August 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Scientific Computing Team",
+      descBullets: [
+        "Incorporated gRPC, Protobuf, Kubernetes, and Docker to deploy a server that wrapped around company’s time series database & query data from over 100,000+ data points",
+        "Constructed an unsupervised anomaly detection model for time series battery conductivity data. Used results to predict the best electrolyte for battery conductivity out of 300+ candidates"
+      ]
     }
   ]
 };
@@ -286,8 +288,6 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Always open to meeting new people. Feel free to reach out to me at my email.",
   email_address: "rnori@college.harvard.edu"
 };
 
