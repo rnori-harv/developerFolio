@@ -25,7 +25,7 @@ const greeting = {
   subTitle: 
     "Currently a senior @ Harvard pursuing an S.M. and B.A. in Computer Science. From San Jose, CA. I do ML engineering and SWE. Interested in new ways we can understand the data we generate.",
   resumeLink:
-    "https://drive.google.com/file/d/1QfOmae7iWo_iQytlkxKNqdwd2f_kFOkA/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MwYJa81UIEZoyE-04kpmsnQJaMv7D8t5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

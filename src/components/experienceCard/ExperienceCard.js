@@ -19,7 +19,7 @@ export default function EducationCard({school}) {
 
   return (
     <div>
-      <Fade left duration={1000}>
+      <Fade right duration={1000}>
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
@@ -62,7 +62,7 @@ export default function EducationCard({school}) {
           </div>
         </div>
       </Fade>
-      <Slide left duration={2000}>
+      <Slide right duration={2000}>
         <div className="education-card-border"></div>
       </Slide>
     </div>
