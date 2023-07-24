@@ -33,7 +33,7 @@ const greeting = {
 
 const interests = {
   spotify: "https://open.spotify.com/user/rocky3.14?si=0f8e1b2909804cb1",
-  soundcloud: "https://letterboxd.com/rakesh12/",
+  soundcloud: "https://soundcloud.com/rnori_21",
   goodreads: "https://www.goodreads.com/user/show/44655928-rakesh",
   letterboxd: "https://letterboxd.com/rakesh12/",
 }
