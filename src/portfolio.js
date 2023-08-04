@@ -30,8 +30,8 @@ const greeting = {
     <>
       Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
       I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
-      In Pear Garage, Neo Scholar Finalist. Working on <Link href='https://noteswise.streamlit.app/' target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
-          NotesWise.
+      In Pear Garage, Neo Scholar Finalist. Currently working on building <Link href='https://noteswise.streamlit.app/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
+          NotesWise.&nbsp; <Launch />
         </Link>
     </>
   ),
@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Machine Learning Engineer Intern",
       company: "Splunk",
-      date: "May – Sept 2022, May 2023 - Present",
+      date: "May – August 2022, May - August 2023",
       desc: "Anomaly Detection, AI Assistant, Cloud Networking",
     },
     {

@@ -5,6 +5,8 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import {interests} from "../../portfolio";
+import Link from '@mui/joy/Link';
+import Launch from '@mui/icons-material/Launch';
 
 
 export default function Interests(){
@@ -16,14 +18,19 @@ export default function Interests(){
             <h1 className="interests-title">Interests</h1>
             <ul>
                 <li>What I'm Listening to: &nbsp;
-                    <a href={interests.spotify} target="_blank" rel="noopener noreferrer" className={linkStyle}>Spotify</a>&nbsp;&nbsp;
-                    <a href={interests.soundcloud} target="_blank" rel="noopener noreferrer" className={linkStyle}>Soundcloud</a>
+                <Link href={interests.spotify} target="_blank" rel="noopener" style={{ fontSize: 'inherit', fontFamily: 'inherit'}}>Spotify&nbsp; <Launch fontSize="small" />
+                    </Link> 
+                    &nbsp;&nbsp;
+                    <Link href={interests.soundcloud} target="_blank" rel="noopener" style={{ fontSize: 'inherit', fontFamily: 'inherit'}}>Soundcloud&nbsp; <Launch fontSize="small" />
+                    </Link> 
                 </li>
                 <li>What I'm Reading: &nbsp;
-                    <a href={interests.goodreads} target="_blank" rel="noopener noreferrer" className={linkStyle}>Goodreads</a>
+                    <Link href={interests.goodreads} target="_blank" rel="noopener" style={{ fontSize: 'inherit', fontFamily: 'inherit'}}>Goodreads&nbsp; <Launch fontSize="small" />
+                    </Link> 
                 </li>
                 <li>What I'm Watching: &nbsp;
-                    <a href={interests.letterboxd} target="_blank" rel="noopener noreferrer" className={linkStyle}>Letterboxd</a>
+                <Link href={interests.letterboxd} target="_blank" rel="noopener" style={{ fontSize: 'inherit', fontFamily: 'inherit'}}>Letterboxd&nbsp; <Launch fontSize="small" />
+                    </Link> 
                 </li>
                 <li>
                     Also a die-hard warriors and niners fan. Steph Curry is inspirational.

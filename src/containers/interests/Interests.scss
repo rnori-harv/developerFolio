@@ -8,10 +8,6 @@
     margin-bottom: 20px; // adjust as needed
   }
 
-  .link-light {
-    color: black;
-  }
-  
-  .link-dark {
-    color: white;
-  }
+.link-dark .link-light {
+    color: #6f3c9c;
+}
