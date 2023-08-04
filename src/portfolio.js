@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -21,9 +21,14 @@ const illustration = {
 
 const greeting = {
   username: "Rakesh Nori",
-  title: "Hi, I'm Rakesh.",
-  subTitle: 
-    "Currently a senior @ Harvard pursuing an S.M. and B.A. in Computer Science. From San Jose, CA. I do ML engineering and SWE. Interested in new ways we can understand the data we generate.",
+  title: "Rakesh Nori",
+  subTitle: (
+    <>
+      Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
+      I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
+      In Pear Garage, Neo Scholar Finalist. Working on <a href='https://noteswise.streamlit.app/' target="_blank" rel="noopener noreferrer" >NotesWise</a>.
+    </>
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1MwYJa81UIEZoyE-04kpmsnQJaMv7D8t5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -107,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",

@@ -11,7 +11,7 @@ export default function Profile(){
   const linkStyle = isDark ? "link-dark" : "link-light";
   return (
       <div id = "info" className = "main">
-          <h1 className="profile-title">Info</h1>
+          <h1 className="profile-title">Get in Touch</h1>
           <ul>
               <li><a href={info.github} target="_blank" rel="noopener noreferrer" className={linkStyle}>Github</a></li>
               <li><a href={info.linkedin} target="_blank" rel="noopener noreferrer" className={linkStyle}>LinkedIn</a></li>

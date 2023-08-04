@@ -11,22 +11,13 @@ export default function Chatbot(){
     
     return (
         <div id = "resume" className = "main">
-            <h1 className="project-title">Resumé</h1>
+            <h1 className="project-title">Chat</h1>
             <div style={{display: 'flex', justifyContent: 'center'}}>
                 <iframe
                 src={`https://resumechatbot.streamlit.app/?embed=true&embed_options=${embedOptions}`}
                 height="600"
                 style={{width: "80%", border: "none"}}
                 ></iframe>
-            </div>
-            <div className="button-greeting-div" style={{display: 'flex', justifyContent: 'center'}}>
-                {greeting.resumeLink && (
-                  <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                  />
-                )}
             </div>
         </div>
     )

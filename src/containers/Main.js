@@ -52,14 +52,13 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
-            <Header />
             <Greeting />
             <StackProgress />
             <Education />
             <WorkExperience />
             <Projects />
-            <Chatbot />
             <Interests />
+            <Chatbot />
             <Profile />
           </>
         )}
