@@ -30,7 +30,7 @@ const greeting = {
     <>
       Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
       I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
-      In Pear Garage, Neo Scholar Finalist. Working on <Link href='https://noteswise.streamlit.app/' style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
+      In Pear Garage, Neo Scholar Finalist. Working on <Link href='https://noteswise.streamlit.app/' target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
           NotesWise.
         </Link>
     </>
