@@ -4,6 +4,10 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import Link from '@mui/joy/Link';
+import Launch from '@mui/icons-material/Launch';
+
+
 
 // Splash Screen
 
@@ -26,7 +30,9 @@ const greeting = {
     <>
       Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
       I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
-      In Pear Garage, Neo Scholar Finalist. Working on <a href='https://noteswise.streamlit.app/' target="_blank" rel="noopener noreferrer" >NotesWise</a>.
+      In Pear Garage, Neo Scholar Finalist. Working on <Link href='https://noteswise.streamlit.app/' style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
+          NotesWise.
+        </Link>
     </>
   ),
   resumeLink:
