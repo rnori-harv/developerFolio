@@ -17,6 +17,7 @@ export default function Chatbot(){
                 src={`https://resumechatbot.streamlit.app/?embed=true&embed_options=${embedOptions}`}
                 height="600"
                 style={{width: "80%", border: "none"}}
+                loading="eager"
                 ></iframe>
             </div>
         </div>
