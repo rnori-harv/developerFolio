@@ -36,7 +36,7 @@ const greeting = {
     </>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1MwYJa81UIEZoyE-04kpmsnQJaMv7D8t5/view?usp=sharing", // Set to empty to hide the button
+    "https://read.cv/rnori", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

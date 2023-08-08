@@ -20,6 +20,15 @@ export default function Chatbot(){
                 loading="eager"
                 ></iframe>
             </div>
+            <div className="button-greeting-div" style={{display: 'flex', justifyContent: 'center'}}>
+                {greeting.resumeLink && (
+                  <Button
+                    text="See my resume"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                  />
+                )}
+            </div>
         </div>
     )
 }
