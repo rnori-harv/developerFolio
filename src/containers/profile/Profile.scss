@@ -1,5 +1,5 @@
 .profile-title {
-    font-size: 52px;
+    font-size: 40px;
     font-weight: 400;
     line-height: normal;
 }
@@ -18,4 +18,19 @@ li {
   
   .link-dark {
     color: white;
+  }
+
+  @media (max-width: 1380px) {
+    .profile-title {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .profile-title {
+      font-size: 30px;
+      text-align: center;
+    }
+    .repo-cards-div-main {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
   }
