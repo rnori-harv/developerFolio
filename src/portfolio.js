@@ -30,9 +30,7 @@ const greeting = {
     <>
       Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
       I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
-      In Pear Garage, Neo Scholar Finalist. Currently working on building <Link href='https://noteswise.streamlit.app/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>
-          NotesWise.&nbsp; <Launch />
-        </Link>
+      In Pear Garage, Neo Scholar Finalist. Incoming Backend Engineer at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>, currently a full-stack engineer intern at <Link href='https://www.shape.ci/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> ShapeCI. </Link>
     </>
   ),
   resumeLink:
