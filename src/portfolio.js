@@ -28,9 +28,7 @@ const greeting = {
   title: "Rakesh Nori",
   subTitle: (
     <>
-      Currently a senior @ Harvard pursuing an M.S. and B.A. in Computer Science. From San Jose, CA.
-      I do ML engineering and SWE. Interested in new ways we can understand the data we generate.
-      In Pear Garage, Neo Scholar Finalist. Incoming Backend Engineer at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>, currently a full-stack engineer intern at <Link href='https://www.shape.ci/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> ShapeCI. </Link>
+      Engineering at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>
     </>
   ),
   resumeLink:
@@ -50,7 +48,7 @@ const interests = {
 const socialMediaLinks = {
   github: "https://github.com/rnori-harv",
   linkedin: "https://linkedin.com/in/rakesh-nori-18371715a/",
-  gmail: "rnori@college.harvard.edu",
+  gmail: "rakeshsnori@gmail.com",
   twitter: "https://twitter.com/rakesh_nori",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
