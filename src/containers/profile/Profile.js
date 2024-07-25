@@ -45,16 +45,6 @@ export default function Profile(){
                 Twitter&nbsp;<Launch/>
                 </Link>
             </li>
-            <li>
-                <Link 
-                    href = {`mailto:${info.email}`} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    style={{ fontSize: 'inherit', fontFamily: 'inherit'}}
-                > 
-                Email&nbsp;<Launch/>
-                </Link>
-            </li>
           </ul>
       </div>
   )
