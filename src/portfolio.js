@@ -157,6 +157,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
+      role: "Backend Engineer",
+      company: "Ramp",
+      date: "July 2024 – Present",
+    },
+    {
+      role: "Full Stack Engineer Intern",
+      company: "ShapeCI",
+      date: "January – May 2024",
+    },
+    {
       role: "Machine Learning Engineer Intern",
       company: "Splunk",
       date: "May – August 2022, May - August 2023",
