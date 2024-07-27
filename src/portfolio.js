@@ -160,6 +160,7 @@ const workExperiences = {
       role: "Backend Engineer",
       company: "Ramp",
       date: "July 2024 – Present",
+      desc: "Spend Management Team"
     },
     {
       role: "Full Stack Engineer Intern",
