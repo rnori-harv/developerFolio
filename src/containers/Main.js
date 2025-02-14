@@ -52,9 +52,7 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            <Projects />
             <Interests />
-            <Chatbot />
             <Profile />
           </>
         )}
