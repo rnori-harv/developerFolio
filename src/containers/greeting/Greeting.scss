@@ -22,7 +22,7 @@
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
+  padding: 0;
 }
 
 .subTitle {
@@ -51,6 +51,7 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  padding-left: 12px;
 }
 
 .greeting-image-div > img {

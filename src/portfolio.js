@@ -157,10 +157,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
-      role: "Backend Engineer",
+      role: "Senior Software Engineer",
       company: "Ramp",
       date: "July 2024 – Present",
-      desc: "Spend Management Team"
+      desc: "Applied AI Team"
     },
     {
       role: "Full Stack Engineer Intern",
