@@ -19,7 +19,6 @@ export default function EducationCard({school}) {
 
   return (
     <div>
-      <Fade right duration={1000}>
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
@@ -61,7 +60,6 @@ export default function EducationCard({school}) {
             </div>
           </div>
         </div>
-      </Fade>
       <Slide right duration={2000}>
         <div className="education-card-border"></div>
       </Slide>

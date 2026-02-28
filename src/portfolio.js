@@ -4,11 +4,15 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import Link from '@mui/joy/Link';
+import Launch from '@mui/icons-material/Launch';
+
+
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -21,11 +25,14 @@ const illustration = {
 
 const greeting = {
   username: "Rakesh Nori",
-  title: "Hi, I'm Rakesh.",
-  subTitle: 
-    "Currently a senior @ Harvard pursuing an S.M. and B.A. in Computer Science. From San Jose, CA. I do ML engineering and SWE. Interested in new ways we can understand the data we generate.",
+  title: "Rakesh Nori",
+  subTitle: (
+    <>
+      Engineering at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>
+    </>
+  ),
   resumeLink:
-    "https://drive.google.com/file/d/1MwYJa81UIEZoyE-04kpmsnQJaMv7D8t5/view?usp=sharing", // Set to empty to hide the button
+    "https://read.cv/rnori", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -41,7 +48,7 @@ const interests = {
 const socialMediaLinks = {
   github: "https://github.com/rnori-harv",
   linkedin: "https://linkedin.com/in/rakesh-nori-18371715a/",
-  gmail: "rnori@college.harvard.edu",
+  gmail: "rakeshsnori@gmail.com",
   twitter: "https://twitter.com/rakesh_nori",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -107,7 +114,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -150,9 +157,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
+      role: "Senior Software Engineer",
+      company: "Ramp",
+      date: "July 2024 – Present",
+      desc: "Applied AI Team"
+    },
+    {
+      role: "Full Stack Engineer Intern",
+      company: "ShapeCI",
+      date: "January – May 2024",
+    },
+    {
       role: "Machine Learning Engineer Intern",
       company: "Splunk",
-      date: "May – Sept 2022, May 2023 - Present",
+      date: "May – August 2022, May - August 2023",
       desc: "Anomaly Detection, AI Assistant, Cloud Networking",
     },
     {
@@ -168,8 +186,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on

@@ -4,14 +4,29 @@
     line-height: normal;
 }
 
+#interests ul {
+    padding-left: 12px;
+  }
+
 #interests ul li {
     margin-bottom: 20px; // adjust as needed
   }
 
-  .link-light {
-    color: black;
+.link-dark .link-light {
+    color: #6f3c9c;
+}
+
+@media (max-width: 1380px) {
+    .interests-title {
+      font-size: 40px;
+    }
   }
-  
-  .link-dark {
-    color: white;
+  @media (max-width: 768px) {
+    .interests-title {
+      font-size: 30px;
+      text-align: center;
+    }
+    .repo-cards-div-main {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
   }

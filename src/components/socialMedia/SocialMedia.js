@@ -1,6 +1,8 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import Link from '@mui/joy/Link';
+import Launch from '@mui/icons-material/Launch';
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -9,15 +11,15 @@ export default function socialMedia() {
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
-        <a
+        <Link 
           href={socialMediaLinks.github}
-          className="icon-button github"
           target="_blank"
+          style={{ fontSize: 'inherit', fontFamily: 'inherit'}}
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
           <span></span>
-        </a>
+        </Link>
       ) : null}
 
       {socialMediaLinks.linkedin ? (
