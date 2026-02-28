@@ -28,7 +28,7 @@ const greeting = {
   title: "Rakesh Nori",
   subTitle: (
     <>
-      Engineering at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>
+      Applied AI at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>
     </>
   ),
   resumeLink:
