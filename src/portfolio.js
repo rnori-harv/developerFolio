@@ -28,7 +28,7 @@ const greeting = {
   title: "Rakesh Nori",
   subTitle: (
     <>
-      Applied AI at <Link href='https://ramp.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}> Ramp </Link>
+      <Link href='https://hone.com/' rel="noopener" target ="_blank" style={{ fontSize: 'inherit', fontFamily: 'inherit' }}>Hone</Link>
     </>
   ),
   resumeLink:
@@ -157,27 +157,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
-      role: "Senior Software Engineer",
-      company: "Ramp",
-      date: "July 2024 – Present",
-      desc: "Applied AI Team"
+      role: "Honing",
+      company: "Hone",
+      date: "Jun 2026 – Present",
+      desc: "Founding Team",
     },
     {
-      role: "Full Stack Engineer Intern",
+      role: "Senior Software Engineer",
+      company: "Ramp",
+      date: "Jul 2024 – Jun 2026",
+      desc: "Applied AI"
+    },
+    {
+      role: "Software Engineer Intern",
       company: "ShapeCI",
-      date: "January – May 2024",
+      date: "2023",
+      desc: "Software for industrials",
     },
     {
       role: "Machine Learning Engineer Intern",
       company: "Splunk",
-      date: "May – August 2022, May - August 2023",
-      desc: "Anomaly Detection, AI Assistant, Cloud Networking",
+      date: "2022",
+      desc: "Anomaly detection",
     },
     {
-      role: "Software Engineering Intern",
-      company: "Quantumscape",
-      date: "May 2021 – August 2021",
-      desc: "Scientific Computing Team",
+      role: "Software Engineer Intern",
+      company: "QuantumScape",
+      date: "2021",
+      desc: "Scientific computing",
     }
   ]
 };
